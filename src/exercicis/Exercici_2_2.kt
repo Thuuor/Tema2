@@ -50,14 +50,9 @@ class Exercici_2_2_Pantalla : JFrame() {
 		
 		guardar.addActionListener {
 		// Instruccions per a guardar el contingut del JTextArea al fitxer.
-			val f = File(area.getText())
 			val f1 = File(fitxer.getText())
-			if (f1.exists()){
-				
-			} else {
-				
-			}
 			
+			f1.writeText(area.getText())
 		}
 	}
 }
