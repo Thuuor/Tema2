@@ -8,8 +8,7 @@ fun main(args: Array<String>){
 	val fi = FitxerImatge(f)
 	fi.transformaNegatiu()
 	fi.transformaObscur()
-	//voluntari
-	//fi.transformaBlancNegre()
+	
 }
 
 
